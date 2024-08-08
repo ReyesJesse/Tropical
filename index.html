@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="css.css">
+    <title>Tropicana</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">Tropicana</a>
+          </div>
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="cart">
+          <a href="#" title="Shopping Cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+    <div class="container">
+        
+        <div class="text-behind">
+            Pineapple
+        </div>
+        
+        <div class="image-container">
+            <!-- Main image -->
+            <img id="mainImage" src="/Tropicana5.webp" alt="Your Image">
+        
+            <!-- Small images positioned on top -->
+            <img class="small-image top-left" src="/smallFruit/coconut.webp" loading="lazy" alt="Small Image 1">
+            <img class="small-image bottom-right" src="/smallFruit/pineappleslice.webp"loading="lazy" alt="Small Image 2">
+        </div>
+    </div>
+
+    <div class="circles">
+        <div class="circle" onclick="changeImageAndColor(1)"></div>
+        <div class="circle" onclick="changeImageAndColor(2)"></div>
+        <div class="circle" onclick="changeImageAndColor(3)"></div>
+        <div class="circle" onclick="changeImageAndColor(4)"></div>
+        <div class="circle" onclick="changeImageAndColor(5)"></div>
+    </div>
+    <script src="/script.js"></script>
+
+    <img src="leaf.webp" alt="Small Image 1" loading="lazy"class="corner-image top-left">
+    <img src="leafTwo.webp" alt="Small Image 2" loading="lazy"class="corner-image bottom-right">
+    <img src="leafTwo.webp" alt="Small Image 2" loading="lazy"class="corner-image bottom-right">
+    <img src="leaf.webp" alt="Small Image 1" loading="lazy"class="corner-image top-left">
+</body>
+</html>
